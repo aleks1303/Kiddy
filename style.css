@@ -107,7 +107,7 @@ nav ul li a {
     z-index: 4;
 }
 main{
-
+    height: 560px;
 }
 .main {
     width: 100vw;
@@ -125,12 +125,15 @@ main{
     bottom:50px;
 }
 h1{
-    width: 40vw;
+    width: 521px;
     color: #710A85;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FFF;
     font-family: Righteous, sans-serif;
     font-size: 54px;
+    font-weight: 400;
+    line-height: normal;
     letter-spacing: 1.62px;
-    margin-bottom: 5px;
 }
 .main-wight div p{
     color: #550964;
@@ -156,6 +159,7 @@ h1{
    display: flex;
     justify-content: space-between;
     padding: 0 0 10px 0;
+
 }
 .main-image div:first-child img:last-child{
     width: 40%;
@@ -183,16 +187,281 @@ h1{
 }
 
 
-/*--------qualities-----------*/
+/*--------quality-----------*/
 
+.quality{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 73px;
+    margin-bottom: 69px;
+}
+.section-quality{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quality-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-quality h2{
+    color: #710A85;
+    width: 521px;
+    height: 90px;
+    text-align: center;
+    font-family: Righteous, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 48px;
+}
 
+.quality-cards div {
+    border-radius: 12px;
+    border: 2px solid #B887C1;
+    background: #F3E9F5;
+    color: #710A85;
+    width: 300px;
+    height: 259px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:8px
+}
+.quality-cards div h4{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.quality-cards div p{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding: 0 31px 0 31px;
+}
 
+.quality-cards div:hover{
+    border: 2px solid #550964;
+    background: #550964;
+    color: #FFFFFF;
+}
 
+/*---------About-------------*/
 
+.about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 186px;
+    background-color:  #710A85;
+}
+.section-about{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 34px;
+}
+.about-info h5{
+    color: #FFF;
+    font-family: Righteous,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.about-info h3{
+    color: #FFF;
+    width: 521px;
+    font-family: Righteous, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.14px;
+    padding-bottom: 10px;
+}
+.about-info p {
+    color: #FFF;
+    width: 587px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-bottom: 30px;
+}
+.about-info button{
+    display: inline-flex;
+    padding: 9px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 4px solid #9C29B2;
+    background: #EEE8EF;
+    color: #710A85;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.about-info button:hover{
+    background-color:#710A85;
+    border: 4px solid #FFFFFF;
+    color: #FFFFFF;
+}
 
+.about-image img:nth-child(1) {
+    position: relative;
+    z-index: 2;
+    left: 150px;
+    top: 120px;
+}
+.about-image img:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    left: 20px;
+    top: 30px;
+}
+.about-image img:nth-child(3) {
+    position: relative;
+    z-index: 3;
+}
 
+.about-card{
+    padding-bottom: 125px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-card div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-card div p {
+    color: #FFF;
+    text-align: center;
+    font-family: Righteous, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.about-card div h6{
+    color: #FFF;
+    width: 173px;
+    text-align: center;
+    font-family: Righteous,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+.cloud1{
+position: relative;
+    z-index: 5;
+    height: 30px;
+}
+.cloud1 img:nth-child(1){
+    position: relative;
+    bottom:55px
+}
+.cloud1 img:nth-child(2){
+    position: relative;
+    bottom:35px;
+    right: 20px;
+}
+.cloud1 img:nth-child(3){
+    position: relative;
+    bottom:35px;
+    right: 40px;
+}
+.cloud1 img:nth-child(4){
+    position: relative;
+    bottom:50px;
+    right: 50px;
+}
+.cloud1 img:nth-child(5){
+    position: relative;
+    bottom:35px;
+    right: 50px;
+}
+.cloud1 img:nth-child(6){
+    position: relative;
+    bottom:160px;
+    left: 86.2vw;
 
+}
 
+.cloud2{
+    position: relative;
+    z-index: 5;
+    height: 30px;
+}
+.cloud2 img:nth-child(1){
+    position: relative;
+    bottom:75px
+}
+.cloud2 img:nth-child(2){
+    position: relative;
+    bottom:65px;
+    right: 25px;
+}
+.cloud2 img:nth-child(3){
+    position: relative;
+    bottom:85px;
+    right: 30px;
+}
+.cloud2 img:nth-child(4){
+    position: relative;
+    bottom:60px;
+    right: 40px;
+}
+.cloud2 img:nth-child(5){
+    position: relative;
+    bottom:45px;
+    right: 50px;
+}
+.cloud2 img:nth-child(6){
+    position: relative;
+    bottom:190px;
+    left: 86.2vw;
+}
 
 
 
